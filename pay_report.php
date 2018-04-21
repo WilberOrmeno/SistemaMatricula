@@ -1,11 +1,6 @@
 <?php include('header.php'); ?>
-<?php include('session.php'); ?>
+
 <?php
-$myperiod = $_POST['period'];
-$myclass = $_POST['class'];
-$mycriteria = $_POST['criteria'];
-
-
 
 ?>
 

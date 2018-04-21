@@ -9,20 +9,16 @@
                         <!-- block -->
                         <div  id="block_bg" class="block">
                             <form id="add_student" class="form-signin" method="post">
-						<?php
-							$query= mysqli_query(conectar(),"select * from students")or die(mysqli_error(conectar()));
-							$count = mysqli_num_rows($query);
-						 	
-						?>
+
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left"><i class="icon-reorder icon-large"></i> Students List</div>
+                                <div class="muted pull-left"><i class="icon-reorder icon-large"></i> Lista de estudiantes</div>
                                 <div class="muted pull-right">
-									Number of Students: <span class="badge badge-info"><?php  echo $count;  ?></span>
+									Número de estudiantes: <span class="badge badge-info">0</span>
 								</div>
                             </div>
                             <div class="block-content collapse in">
 								<div class="span12" id="studentTableDiv">
-								<h2 id="noch">Students List</h2>
+								<h2 id="noch"> Lista de estudiantes</h2>
 									<?php include('students_table.php'); ?>
                                 </div>
                             </div>
@@ -31,7 +27,6 @@
                     </div>
                 </div>
             </div>
-		<?php include('footer.php'); ?>
         </div>
 		<?php include('script.php'); ?>
     </body>	

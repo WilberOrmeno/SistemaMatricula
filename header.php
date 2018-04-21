@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js">
     <head>
+        <meta charset="UTF-8">
         <title>SISTEMA DE MATRÍCULA</title>
         <!-- Bootstrap -->
 			<link href="images/logo.png" rel="icon" type="image">

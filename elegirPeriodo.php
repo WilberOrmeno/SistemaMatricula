@@ -34,7 +34,7 @@ include("header.php");
 
                                     <center>
                                         <div class="input-group">
-                                            <input type='text' class="form-control" name="periodSelected" id="datepicker" placeholder="--Click para seleccionar--"/>
+                                            <input type='text' class="form-control" name="periodSelected" id="datepicker" maxlength="4" onkeypress="return isNumberKey(event)" placeholder="--Click para seleccionar--" required/>
                                             <span class="input-group-addon">
                                             <span class="glyphicon glyphicon-calendar"></span>
                                     </span>
@@ -73,5 +73,16 @@ include("header.php");
     </div>
 
 </div>
+<SCRIPT language=Javascript>
+    <!--
+    function isNumberKey(evt)
+    {
+        var charCode = (evt.which) ? evt.which : event.keyCode
+        if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
 
+        return true;
+    }
+    //-->
+</SCRIPT>
 </body>

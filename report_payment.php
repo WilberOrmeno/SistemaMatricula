@@ -22,7 +22,7 @@
                             </div>
                             <div class="block-content collapse in">
 								<div class="span12" id="studentTableDiv">
-								<h2 id="noch">Students List</h2>
+								<h2 id="noch">Lista de estudiantes</h2>
 									<?php include('report_payment_table.php'); ?>
                                 </div>
                             </div>
