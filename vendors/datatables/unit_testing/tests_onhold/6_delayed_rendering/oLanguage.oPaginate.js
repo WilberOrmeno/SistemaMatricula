@@ -17,10 +17,10 @@ $(document).ready( function () {
 		null,
 		function () {
 			var bReturn = 
-				oSettings.oLanguage.oPaginate.sFirst == "First" &&
-				oSettings.oLanguage.oPaginate.sPrevious == "Previous" &&
-				oSettings.oLanguage.oPaginate.sNext == "Next" &&
-				oSettings.oLanguage.oPaginate.sLast == "Last";
+				oSettings.oLanguage.oPaginate.sFirst == "Primero" &&
+				oSettings.oLanguage.oPaginate.sPrevious == "Anterior" &&
+				oSettings.oLanguage.oPaginate.sNext == "Siguiente" &&
+				oSettings.oLanguage.oPaginate.sLast == "Último";
 			return bReturn;
 		}
 	);
@@ -29,11 +29,11 @@ $(document).ready( function () {
 		"oLanguage.oPaginate defaults are in the DOM",
 		null,
 		function () {
-			var bReturn = 
-				$('#example_paginate .first').html() == "First" &&
-				$('#example_paginate .previous').html() == "Previous" &&
-				$('#example_paginate .next').html() == "Next" &&
-				$('#example_paginate .last').html() == "Last";
+			var bReturn =
+				$('#example_paginate .first').html() == "Primero" &&
+				$('#example_paginate .previous').html() == "Anterior" &&
+				$('#example_paginate .next').html() == "Siguiente" &&
+				$('#example_paginate .last').html() == "Último";
 			return bReturn;
 		}
 	);

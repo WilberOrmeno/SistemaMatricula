@@ -1471,7 +1471,7 @@ DataTable.defaults = {
 		 * Display information string for when the table is empty. Typically the 
 		 * format of this string should match sInfo.
 		 *  @type string
-		 *  @default Showing 0 to 0 of 0 entries
+		 *  @default Mostrando 0 de 0 de 0 registros
 		 *  @dtopt Language
 		 * 
 		 *  @example
@@ -1483,7 +1483,7 @@ DataTable.defaults = {
 		 *      } );
 		 *    } );
 		 */
-		"sInfoEmpty": "Showing 0 to 0 of 0 entries",
+		"sInfoEmpty": "Mostrando 0 de 0 de 0 registros",
 	
 	
 		/**

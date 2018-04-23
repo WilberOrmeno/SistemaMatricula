@@ -9,13 +9,13 @@
 -->
 		<thead>
 		<tr>
-					<th>Full Name</th>
-					<th>Gender</th>
-					<th>Class</th>
-					<th>Status</th>
-					<th>Transport Route</th>
-					<th class="empty"></th>
-					<th class="empty"></th>
+					<th>Cod. alumno</th>
+					<th>Nombres</th>
+					<th>Ape. Paterno</th>
+					<th>Ape. Materno</th>
+					<th>Grado</th>
+					<th>Telefono</th>
+					<th>Email</th>
 		</tr>
 		</thead>
 		<tbody>

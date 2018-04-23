@@ -1,8 +1,8 @@
 <?php include('header.php'); ?>
   <body id="login">
-    <div class="container">
+    <div class="container" style="margin-top:120px;">
 	<?php include('navbar_index.php'); ?>
-    <form id="login_form" class="form-signin" method="post">
+    <form id="login_form" class="form-signin" method="post" style="color: lightgrey">
         <center>
             <b><h1 class="form-signin-heading" style="color: red;">CETAPSI</h1></b>
 

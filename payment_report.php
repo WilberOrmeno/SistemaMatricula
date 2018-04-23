@@ -60,7 +60,7 @@
 										
 											<div class="control-group">
                                           <div class="controls">
-												<button  data-placement="right" title="Click to Search" id="search" name="search" class="btn btn-inverse"><i class="icon-search icon-large"></i> Search</button>
+												<button  data-placement="right" title="Click to Search" id="search" name="search" class="btn btn-inverse"><i class="icon-search icon-large"></i> Buscar</button>
 												
 												
                                           </div>

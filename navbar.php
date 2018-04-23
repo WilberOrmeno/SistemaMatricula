@@ -14,8 +14,8 @@ $periodo = mysqli_fetch_array($query);
                 <span class="brand" href="#">Sistema de matrícula - Periodo <?php echo $periodo[0]?></span>
                 <div id="coll" class="nav-collapse collapse">
                     <ul class="nav pull-right">
-                        <li class="dropdown">
-                            <a href="#" id="name123" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user icon-large"></i><?php /*echo $row['firstname']." ".$row['lastname']; */ ?> <i class="caret"></i></a>
+                        <li>
+                            <a href="#" id="name123" role="button" class="dropdown-toggle" data-toggle="dropdown"> <i class="icon-user icon-large"></i><?php /*echo $row['firstname']." ".$row['lastname']; */ ?> Cerrar sesión <i class="caret"></i></a>
                             <ul class="dropdown-menu">
                                 <!--  <li><a class="jkl" tabindex="-1" href="#">Profile</a></li> -->
                                 <li>

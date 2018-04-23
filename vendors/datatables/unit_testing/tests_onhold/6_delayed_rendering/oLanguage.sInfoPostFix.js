@@ -74,7 +74,7 @@ $(document).ready( function () {
 			} );
 			oTable.fnFilter("nothinghere");
 		},
-		function () { return document.getElementById('example_info').innerHTML = "Showing 0 to 0 of 0 entries unit (filtered from 57 total entries) test"; }
+		function () { return document.getElementById('example_info').innerHTML = "Mostrando 0 de 0 de 0 registros unit (filtered from 57 total entries) test"; }
 	);
 	
 	

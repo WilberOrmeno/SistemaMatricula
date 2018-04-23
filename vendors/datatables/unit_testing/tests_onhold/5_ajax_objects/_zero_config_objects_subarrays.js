@@ -918,7 +918,7 @@ $(document).ready( function () {
 		"Filter 'nothinghere' - info",
 		null,
 		function () { return document.getElementById('example_info').innerHTML == 
-			"Showing 0 to 0 of 0 entries (filtered from 57 total entries)"; }
+			"Mostrando 0 de 0 de 0 registros (filtered from 57 total entries)"; }
 	);
 	
 	oTest.fnTest(
@@ -938,7 +938,7 @@ $(document).ready( function () {
 			$('#example_filter input').val("GeckoWin").keyup();
 		},
 		function () { return document.getElementById('example_info').innerHTML == 
-			"Showing 0 to 0 of 0 entries (filtered from 57 total entries)"; }
+			"Mostrando 0 de 0 de 0 registros (filtered from 57 total entries)"; }
 	);
 	
 	oTest.fnTest(

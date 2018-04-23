@@ -7,7 +7,7 @@ include("header.php");
 <div class="container-fluid" id="">
 
     <div class="row-fluid">
-        <?php include('sidebar_dashboard.php'); ?>
+        <?php include('sidebar_periodo.php'); ?>
         <!--/span-->
         <div class="span9" id="content">
             <div class="row-fluid"></div>
