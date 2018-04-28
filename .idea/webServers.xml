@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f2fcd417-74d8-41a9-91dd-56551a9ca6b4" name="xampp" url="http://localhost/SistemaMatricula/">
+        <fileTransfer port="0" mountedRoot="C:\xampp" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
